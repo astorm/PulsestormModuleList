@@ -9,4 +9,16 @@ The Module List Module provides you with a list of enabled and disable modules, 
 
 Original Post: http://alanstorm.com/magento_list_module
 
-*We're currently splitting the Pulse Storm repository into individual extension repositories.  Please excuse out mess while this is sorted*
+###Build Instructions
+
+The `build_module_list.bash` file is a bash script that will create a simple tar archive of the extension files. 
+
+    $ ./build_module_list.bash
+    
+This script assumes the existence of a `var` folder.    
+
+The `magento-tar-to-connect.modulelist.php` file is a configuration file for the <a href="https://github.com/astorm/MagentoTarToConnect/">MagentoTarToConnect</a> command-line script.  This will allow you to build a Magento Connect 2.0 extension with the following.
+
+    $ magento-tar-to-connect.phar magento-tar-to-connect.modulelist.php
+    
+See the <a href="https://github.com/astorm/MagentoTarToConnect/#readme">MagentoTarToConnect README.md</a> for more information on how this tool works.     
