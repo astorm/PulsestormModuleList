@@ -7,7 +7,7 @@ A Magento module that lists other installed modules.
 
 The Module List Module provides you with a list of enabled and disable modules, as well as some simple tools for debugging your own module installation issues.  Module here refers to Magento Code Modules, which are separate from Magento Connect Extensions. 
 
-Original Post: http://alanstorm.com/magento_list_module
+Original Blog Post: http://alanstorm.com/magento_list_module
 
 ###Build Instructions
 
